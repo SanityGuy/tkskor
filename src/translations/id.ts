@@ -108,7 +108,7 @@ const id = {
         },
 
         footer: "Dibuat dengan 💖 oleh ",
-    },
+    }, 
 
     warning: {
         title: "Penting",
