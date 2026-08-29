@@ -9,7 +9,6 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Calculator from "./pages/Calculator";
 import About from "./pages/About";
-import React from "react";
 
 export default function AppRoute() {
     return (
