@@ -6,15 +6,15 @@ const id = {
     },
 
     home: {
-        label: "SKOR TKA / TKAD",
-        title: "Hitung Skor Kamu.",
-        description: "Dapatkan estimasi nilai TKA atau TKAD berdasarkan skor yang kamu masukkan.",
+        label: "BERANDA UTAMA",
+        title: "Hitung Skor Kamu!",
+        description: "Dapatkan estimasi nilai akhir ujian nasional berdasarkan skor yang kamu masukkan seperti skor TKA, TKAD (jika diperlukan), dan rapot!",
         button: "Mulai Hitung Skor",
         howItWorks: "Cara Kerja",
         steps: {
             enter: {
                 title: "Masukkan Nilai",
-                description: "Isi skor yang kamu dapatkan untuk setiap mata pelajaran wajib.",
+                description: "Isi skor yang kamu dapatkan untuk setiap mata pelajaran wajib serta nilai rapot.",
             },
             choose: {
                 title: "Pilih Mode Perhitungan",
@@ -22,16 +22,14 @@ const id = {
             },
             calculate: {
                 title: "Lihat Hasil Akhir",
-                description: "Periksa estimasi total skormu beserta rincian rumus perhitungannya.",
+                description: "Periksa estimasi total skormu!",
             },
         },
     },
 
     calculator: {
         label: "KALKULATOR NILAI",
-
         title: "Hitung nilai kamu.",
-
         description:
             "Masukkan nilai TKA, TKAD, dan rapor untuk menghitung perkiraan hasil kamu.",
 
@@ -48,7 +46,7 @@ const id = {
             "Gunakan TKAD",
 
         tkadDescription:
-            "TKAD saat ini hanya berlaku di Yogyakarta.",
+            "TKAD saat ini hanya berlaku di Daerah Istimewa Yogyakarta.",
 
         tkadScoresDescription:
             "Masukkan nilai TKAD.",
@@ -70,7 +68,7 @@ const id = {
                 "Bahasa Inggris",
 
             science:
-                "IPA",
+                "IPA/Sains",
         },
     },
 
@@ -99,7 +97,7 @@ const id = {
             },
             community: {
                 title: "Jaringan Komunitas",
-                description: "TKScore adalah bagian dari proyek sampingan kami. Bergabunglah ke Discord untuk mengobrol, berkolaborasi, atau mengikuti SkyFlix—platform khusus media aviasi umum.",
+                description: "TKScore adalah bagian dari proyek sampingan kami. Bergabunglah ke Discord untuk mengobrol, berkolaborasi, atau mengikuti SkyFlix Network! platform khusus media aviasi umum.",
                 button: "Gabung Discord"
             },
             support: {
@@ -120,7 +118,7 @@ const id = {
     score: {
         overlimit: "Skor tidak boleh lebih dari 100.",
         underlimit: "Skor tidak boleh kurang dari 0.",
-        valid: "Tolong untuk mengisi nilai angka yang valid antara 0 - 100 untuk semua form pengisian."
+        valid: "Tolong untuk mengisi nilai angka yang valid antara 0 sampai 100 untuk semua pengisian nilai."
     },
 };
 

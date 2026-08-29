@@ -6,15 +6,15 @@ const en = {
     },
 
     home: {
-        label: "TKA / TKAD SCORE",
-        title: "Calculate your score.",
-        description: "Get an estimated TKA or TKAD score based on your entered results.",
+        label: "MAIN HOMEPAGE",
+        title: "Calculate your score!",
+        description: "Get an estimated final score based on your entered results like TKA, TKAD (if applicable), and report card!",
         button: "Calculate your score",
         howItWorks: "How it works",
         steps: {
             enter: {
                 title: "Enter your scores",
-                description: "Enter the scores you received for each required subject.",
+                description: "Enter the scores you received for each required subject and report card average score.",
             },
             choose: {
                 title: "Choose your calculation",
@@ -22,16 +22,14 @@ const en = {
             },
             calculate: {
                 title: "Get your result",
-                description: "See your estimated score and calculation breakdown.",
+                description: "See your estimated score!",
             },
         },
     },
 
     calculator: {
         label: "SCORE CALCULATOR",
-
         title: "Calculate your score.",
-
         description:
             "Enter your TKA, TKAD, and report card scores to calculate your estimated result.",
 
@@ -48,7 +46,7 @@ const en = {
             "Include TKAD",
 
         tkadDescription:
-            "TKAD is currently applicable only in Yogyakarta.",
+            "TKAD is currently applicable only in Special Region of Yogyakarta.",
 
         tkadScoresDescription:
             "Enter your TKAD scores.",
@@ -99,7 +97,7 @@ const en = {
             },
             community: {
                 title: "Our Community Network",
-                description: "TKScore is a side project under our developer umbrella. Join our Discord to hang out, collaborate, or follow SkyFlix—a custom platform tailored for general aviation media.",
+                description: "TKScore is a side project under our developer umbrella. Join our Discord to hang out, collaborate, or follow SkyFlix Network! a custom platform tailored for general aviation media.",
                 button: "Join Discord"
             },
             support: {

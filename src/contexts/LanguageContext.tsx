@@ -33,7 +33,7 @@ export function LanguageProvider({
             const saved =
                 localStorage.getItem("language");
 
-            return saved === "id" ? "id" : "en";
+            return saved === "en" ? "en" : "id";
         });
 
     function setLanguage(language: Language) {

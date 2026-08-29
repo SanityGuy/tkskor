@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Calculator as CalculatorIcon } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import WarningCard from "../components/WarningCard";
-import ScoreCard from "../components/Scorecard";
+import ScoreCard from "../components/ScoreCard";
 import TkadToggle from "../components/TkadToggle";
 import RapotCard from "../components/RapotCard";
 import { calculateTKA, calculateTKAD, calculateFinalScore } from "../lib/calculator";

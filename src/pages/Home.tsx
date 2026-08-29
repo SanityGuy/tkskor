@@ -24,7 +24,7 @@ export default function Home() {
                         {t.home.description}
                     </p>
 
-                    <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
+                    <div className="mt-8 flex flex-col sm:flex-row items-center gap-5">
                         <Link
                             to="/calculator"
                             className="group inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 font-bold text-white shadow-md shadow-blue-600/10 transition-all duration-200 hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/20 active:scale-[0.98]"

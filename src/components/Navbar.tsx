@@ -27,7 +27,6 @@ export default function Navbar() {
                         <span className="text-lg font-bold tracking-tight text-slate-900 dark:text-white">TKSkor</span>
                     </NavLink>
 
-                    {/* Desktop Navigation Links (Hidden on Mobile) */}
                     <div className="hidden items-center gap-2 md:flex">
                         <NavItem to="/" icon={<House size={16} />} label={t.navbar.home} />
                         <NavItem to="/calculator" icon={<Calculator size={16} />} label={t.navbar.calculator} />

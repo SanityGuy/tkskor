@@ -61,7 +61,7 @@ export default function About() {
                             description={t.about.cards.community.description}
                             button={true}
                             buttonlabel={t.about.cards.community.button}
-                            link="https://discord.gg"
+                            link="https://discord.com/invite/EZ4XBunzYg"
                         />
 
                         <InfoCard
@@ -70,7 +70,7 @@ export default function About() {
                             description={t.about.cards.support.description}
                             button={true}
                             buttonlabel={t.about.cards.support.button}
-                            link="https://yourdonationlink.com"
+                            link="https://saweria.co/souyandev"
                         />
                     </div>
                 </section>
@@ -81,7 +81,7 @@ export default function About() {
                         <p className="text-center text-sm font-medium leading-relaxed text-slate-600 dark:text-slate-400 sm:text-left">
                             {t.about.footer}
                             <a
-                                href="https://github.com"
+                                href="https://github.com/sanityguy"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group inline-flex items-center gap-0.5 font-semibold text-slate-900 underline decoration-slate-300 decoration-1 underline-offset-4 transition-colors hover:text-blue-600 hover:decoration-blue-500 dark:text-slate-100 dark:decoration-slate-700 dark:hover:text-blue-400 dark:hover:decoration-blue-400 active:scale-[0.98]"
