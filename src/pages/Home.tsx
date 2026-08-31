@@ -12,19 +12,19 @@ export default function Home() {
 
             <div className="mx-auto flex max-w-5xl flex-col items-center">
                 <section className="flex max-w-2xl flex-col items-center text-center">
-                    <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/10 dark:text-blue-400 dark:ring-blue-400/20">
+                    <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/20 dark:text-blue-400 dark:ring-blue-400/20">
                         {t.home.label}
                     </span>
 
-                    <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-5xl md:text-6xl">
-                        {t.home.title}
+                    <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-100 sm:text-5xl md:text-6xl">
+                        {t.home.title} <span className="text-blue-500 dark:text-blue-400">{t.home.title2}</span>
                     </h1>
 
                     <p className="mt-4 max-w-xl text-base leading-relaxed text-slate-500 dark:text-slate-400 sm:text-lg">
                         {t.home.description}
                     </p>
 
-                    <div className="mt-8 flex flex-col sm:flex-row items-center gap-5">
+                    <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
                         <Link
                             to="/calculator"
                             className="group inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 font-bold text-white shadow-md shadow-blue-600/10 transition-all duration-200 hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/20 active:scale-[0.98]"

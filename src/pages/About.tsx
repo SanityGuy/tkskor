@@ -1,5 +1,8 @@
 import { useLanguage } from "../contexts/LanguageContext";
-import { ArrowUpRight } from "lucide-react";
+import { 
+    ArrowUpRight,
+    HandHeart,
+} from "lucide-react";
 
 import InfoCard from "../components/InfoCard";
 
@@ -15,7 +18,7 @@ export default function About() {
                     <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/10 dark:text-blue-400 dark:ring-blue-400/20">
                         {t.about.label}
                     </span>
-                    <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-5xl md:text-6xl">
+                    <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-100 sm:text-5xl md:text-6xl">
                         {t.about.title}
                     </h1>
                     <p className="mt-4 max-w-xl text-base leading-relaxed text-slate-500 dark:text-slate-400 sm:text-lg">
@@ -94,6 +97,13 @@ export default function About() {
                                 />
                             </a>
                         </p>
+
+                        <div className="flex items-center gap-1">
+                            <p className="text-center text-sm font-medium leading-relaxed gap-2 text-slate-600 dark:text-slate-400 sm:text-left hover:text-slate-800 dark:hover:text-slate-200 transition-colors duration-200 ease">
+                                {t.about.specialThanks}
+                            </p>
+                            <HandHeart size={20} className="inline-flex text-blue-500 dark:text-blue-400" />
+                        </div>
 
                         <div className="flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 shadow-sm dark:border-slate-800 dark:bg-slate-950 dark:text-slate-400 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 active:scale-[0.98] transition-all duration-200">
                             <span className="relative flex h-2 w-2">

@@ -4,6 +4,7 @@ import { useTheme } from "../hooks/useTheme";
 import { useLanguage } from "../contexts/LanguageContext";
 import { GB, ID } from "country-flag-icons/react/3x2";
 import NavItem from "./NavItem";
+import logo from '../../site/android-chrome-192x192.png';
 
 export default function Navbar() {
     const { language, setLanguage, t } = useLanguage();
@@ -23,7 +24,7 @@ export default function Navbar() {
                     dark:shadow-black/20
                 ">
                     <NavLink to="/" className="flex items-center gap-2.5 transition-opacity hover:opacity-90">
-                        <img src="/android-chrome-192x192.png" alt="TKSkor Logo" className="h-8 w-8 object-contain" />
+                        <img src={logo} alt="TKSkor Logo" className="h-8 w-8 object-contain" />
                         <span className="text-lg font-bold tracking-tight text-slate-900 dark:text-white">TKSkor</span>
                     </NavLink>
 
@@ -42,8 +43,10 @@ export default function Navbar() {
                                 text-xs font-bold tracking-wide
                                 text-slate-600
                                 transition-all duration-200
+
                                 hover:bg-slate-100
                                 hover:text-slate-900
+
                                 dark:text-slate-300
                                 dark:hover:bg-slate-800
                                 dark:hover:text-white

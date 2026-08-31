@@ -7,7 +7,8 @@ const id = {
 
     home: {
         label: "BERANDA UTAMA",
-        title: "Hitung Skor Kamu!",
+        title: "Selamat Datang di ",
+        title2: "TKSkor",
         description: "Dapatkan estimasi nilai akhir ujian nasional berdasarkan skor yang kamu masukkan seperti skor TKA, TKAD (jika diperlukan), dan rapot!",
         button: "Mulai Hitung Skor",
         howItWorks: "Cara Kerja",
@@ -29,9 +30,9 @@ const id = {
 
     calculator: {
         label: "KALKULATOR NILAI",
-        title: "Hitung nilai kamu.",
+        title: "Hitung Nilai Kamu.",
         description:
-            "Masukkan nilai TKA, TKAD, dan rapor untuk menghitung perkiraan hasil kamu.",
+            "Masukkan nilai TKA, TKAD, dan rata-rata nilai rapormu untuk menghitung perkiraan hasil kamu.",
 
         tkaDescription:
             "Masukkan nilai TKA.",
@@ -75,50 +76,51 @@ const id = {
     about: {
         label: "TENTANG PROYEK",
         title: "Di Balik TKScore",
-        description: "TKScore adalah kalkulator cepat dan transparan yang dibangun menggunakan React dan Vite untuk menghitung estimasi skormu secara instan.",
+        description: "TKScore adalah kalkulator cepat dan transparan yang dibangun menggunakan React dan Vite untuk menghitung estimasi nilai akademik kamu secara instan.",
         
         cards: {
             project: {
-                title: "Informasi Proyek",
-                description: "TKScore diciptakan untuk menyediakan alat hitung nilai yang cepat, bebas iklan, dan open-source. Dibangun menggunakan React dan Vite demi kecepatan dan keandalan optimal.",
+                title: "Info Proyek",
+                description: "TKScore dibuat untuk menyediakan platform yang cepat, bebas iklan, dan open-source. Dibangun secara asli dengan React dan Vite untuk kecepatan kalkulasi sisi klien yang optimal.",
             },
             infrastructure: {
                 title: "Didukung oleh Vercel",
-                description: "Proyek ini berjalan sepenuhnya di jaringan edge global Vercel, memastikan waktu muat instan, penerapan berkelanjutan, dan keandalan arsitektur yang luar biasa.",
+                description: "Proyek ini berjalan sepenuhnya di jaringan global edge Vercel, memastikan waktu pemuatan instan, deployment berkelanjutan, dan keandalan arsitektur yang tinggi.",
             },
             privacy: {
-                title: "Tanpa Perlu Masuk",
-                description: "Privasi diutamakan. Kamu tidak perlu mendaftar atau membuat akun untuk menggunakan kalkulator ini. Data kamu tetap aman sepenuhnya di dalam browsermu.",
+                title: "Tidak Perlu Login",
+                description: "Privasi sejak awal. Anda tidak perlu mendaftar, membuat akun, atau login untuk menggunakan kalkulator ini. Data Anda tetap sepenuhnya berada di browser Anda.",
             },
             developers: {
                 title: "Ingin Berkontribusi?",
-                description: "Apakah kamu seorang developer? Proyek ini bersifat open-source. Bantu kami mengoptimalkan algoritma, menambahkan modul perhitungan baru, atau memperbaiki bug melalui GitHub.",
-                button: "Kunjungi GitHub"
+                description: "Apakah Anda seorang pengembang? Proyek ini bersifat open-source. Bantu mengoptimalkan algoritma penilaian, menambahkan modul tata letak baru, atau memperbaiki bug melalui repositori publik kami.",
+                button: "Lihat GitHub"
             },
             community: {
-                title: "Jaringan Komunitas",
-                description: "TKScore adalah bagian dari proyek sampingan kami. Bergabunglah ke Discord untuk mengobrol, berkolaborasi, atau mengikuti SkyFlix Network! platform khusus media aviasi umum.",
+                title: "Jaringan Komunitas Kami",
+                description: "TKScore adalah proyek sampingan di bawah payung pengembang kami. Bergabunglah dengan Discord kami untuk berkumpul, berkolaborasi, atau mengikuti SkyFlix Network! sebuah platform khusus yang dirancang untuk media penerbangan umum.",
                 button: "Gabung Discord"
             },
             support: {
                 title: "Dukung Karya Kami",
-                description: "Aplikasi ini didanai mandiri, bersifat open-source, dan bersih dari pelacak. Jika alat ini membantumu, pertimbangkan untuk mendukung kelangsungan pengembangannya.",
+                description: "Aplikasi ini sepenuhnya didanai sendiri, open-source, dan bersih dari pelacak. Jika utilitas ini telah membantu Anda merencanakan langkah Anda, pertimbangkan untuk mendukung pengembangan berkelanjutan kami.",
                 button: "Dukung Kami"
             }
         },
 
-        footer: "Dibuat dengan 💖 oleh ",
-    }, 
+        footer: "Pembuat: ",
+        specialThanks: "Terima kasih atas dukungan dari para donatur",
+    },
 
     warning: {
-        title: "Penting",
-        message: "Ini hanya merupakan simulasi perhitungan dan tidak menjamin kelulusan atau penerimaan resmi di institusi mana pun.",
+        title: "Pemberitahuan Penting",
+        message: "Ini hanya merupakan perkiraan dan tidak menjamin penerimaan resmi atau pendaftaran akhir di sekolah atau institusi mana pun.",
     },
 
     score: {
-        overlimit: "Skor tidak boleh lebih dari 100.",
-        underlimit: "Skor tidak boleh kurang dari 0.",
-        valid: "Tolong untuk mengisi nilai angka yang valid antara 0 sampai 100 untuk semua pengisian nilai."
+        overlimit: "Skor tidak boleh lebih tinggi dari 100.",
+        underlimit: "Skor tidak boleh lebih rendah dari 0.",
+        valid: "Silakan masukkan skor yang valid antara 0 dan 100 untuk setiap kolom yang diperlukan.",
     },
 };
 

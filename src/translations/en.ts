@@ -7,7 +7,8 @@ const en = {
 
     home: {
         label: "MAIN HOMEPAGE",
-        title: "Calculate your score!",
+        title: "Welcome to ",
+        title2: "TKScore",
         description: "Get an estimated final score based on your entered results like TKA, TKAD (if applicable), and report card!",
         button: "Calculate your score",
         howItWorks: "How it works",
@@ -29,9 +30,9 @@ const en = {
 
     calculator: {
         label: "SCORE CALCULATOR",
-        title: "Calculate your score.",
+        title: "Calculate Your Score.",
         description:
-            "Enter your TKA, TKAD, and report card scores to calculate your estimated result.",
+            "Enter your TKA, TKAD, and your average report card scores to calculate your estimated result.",
 
         tkaDescription:
             "Enter your TKA scores.",
@@ -87,7 +88,7 @@ const en = {
                 description: "This project runs entirely on Vercel's global edge network, ensuring instant load times, continuous deployment, and extreme architectural reliability.",
             },
             privacy: {
-                title: "No Sign-In Required",
+                title: "No Login Required",
                 description: "Privacy by design. You do not need to register, create an account, or log in to use this calculator. Your data stays entirely in your browser.",
             },
             developers: {
@@ -107,7 +108,8 @@ const en = {
             }
         },
 
-        footer: "Made with 💖 by ",
+        footer: "Developer:  ",
+        specialThanks: "Special thanks to our donators",
     },
 
     warning: {
