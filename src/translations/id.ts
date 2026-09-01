@@ -49,6 +49,15 @@ const id = {
         tkadDescription:
             "TKAD saat ini hanya berlaku di Daerah Istimewa Yogyakarta.",
 
+        selectProvince:
+            "Pilih Provinsi",
+
+        selectProvinceDescription:
+            "Silakan pilih provinsi kamu untuk menghitung skor agar bisa lebih akurat.",
+
+        selectProvincePlaceholder:
+            "-- Pilih Provinsi --",
+
         tkadScoresDescription:
             "Masukkan nilai TKAD.",
 
@@ -112,6 +121,15 @@ const id = {
         specialThanks: "Terima kasih atas dukungan dari para donatur",
     },
 
+    provinces: {
+        dki: "DKI Jakarta (70% Rapor : 30% TKA)",
+        jabar: "Jawa Barat (50% Rapor : 50% TKA)",
+        jateng: "Jawa Tengah (50% Rapor : 50% TKA)",
+        yogyakarta: "DI Yogyakarta (40% Rapor : 60% TKA)",
+        jtt: "Jawa Timur (60% Rapor : 40% TKA)",
+        btn: "Banten (70% Rapor : 30% TKA)",
+    },
+
     warning: {
         title: "Pemberitahuan Penting",
         message: "Ini hanya merupakan perkiraan dan tidak menjamin penerimaan resmi atau pendaftaran akhir di sekolah atau institusi mana pun.",
@@ -121,6 +139,17 @@ const id = {
         overlimit: "Skor tidak boleh lebih tinggi dari 100.",
         underlimit: "Skor tidak boleh lebih rendah dari 0.",
         valid: "Silakan masukkan skor yang valid antara 0 dan 100 untuk setiap kolom yang diperlukan.",
+    },
+
+    weights: {
+        title: "Bobot Nilai Custom",
+        description: "Atur persentase bobot kelulusan sesuai ketentuan daerah Anda.",
+        tka: "Bobot TKA (%)",
+        tkad: "Bobot TKAD (%)",
+        rapot: "Bobot Rapor (%)",
+        incltkad: "Sertakan Nilai TKAD",
+        total: "{totalWeight}%",
+        valid: "Total bobot idealnya berjumlah 100%. Saat ini: {totalWeight}%",
     },
 };
 

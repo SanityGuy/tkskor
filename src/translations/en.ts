@@ -49,6 +49,15 @@ const en = {
         tkadDescription:
             "TKAD is currently applicable only in Special Region of Yogyakarta.",
 
+        selectProvince:
+            "Select your province.",
+
+        selectProvinceDescription:
+            "Please select your province to calculate your score more accurately.",
+
+        selectProvincePlaceholder:
+            "-- Select your province --",
+
         tkadScoresDescription:
             "Enter your TKAD scores.",
 
@@ -112,6 +121,16 @@ const en = {
         specialThanks: "Special thanks to our donators",
     },
 
+    provinces: {
+        dki: "DKI Jakarta (70% Report : 30% TKA)",
+        jabar: "West Java (50% Report : 50% TKA)",
+        jateng: "Central Java (50% Report : 50% TKA)",
+        yogyakarta: "Yogyakarta (40% Report : 60% TKA)",
+        jtt: "East Java (60% Report : 40% TKA)",
+        btn: "Banten (70% Report : 30% TKA)",
+    },
+        
+
     warning: {
         title: "Important Notice",
         message: "This is only an estimate and does not guarantee official admission or final enrollment to any school or institution.",
@@ -121,6 +140,17 @@ const en = {
         overlimit: "Score cannot be higher than 100.",
         underlimit: "Score cannot be lower than 0.",
         valid: "Please enter valid scores between 0 and 100 for every required field.",
+    },
+
+    weights: {
+        title: "Custom Weight Card",
+        description: "Set the percentage of bobot score based on your province's requirements.",
+        tka: "TKA Weight (%)",
+        tkad: "TKAD Weight (%)",
+        rapot: "Report Weight (%)",
+        incltkad: "Include TKAD",
+        total: "{totalWeight}%",
+        valid: "Total bobot ideally should be 100%. Currently: {totalWeight}%",
     },
 };
 
