@@ -2,6 +2,7 @@ import { useLanguage } from "../contexts/LanguageContext";
 import { 
     ArrowUpRight,
     HandHeart,
+    Info,
 } from "lucide-react";
 
 import InfoCard from "../components/InfoCard";
@@ -15,7 +16,8 @@ export default function About() {
 
             <div className="mx-auto flex max-w-5xl flex-col items-center">
                 <section className="flex max-w-2xl flex-col items-center text-center">
-                    <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/10 dark:text-blue-400 dark:ring-blue-400/20">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/10 dark:text-blue-400">
+                        <Info size={14} />
                         {t.about.label}
                     </span>
                     <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-100 sm:text-5xl md:text-6xl">

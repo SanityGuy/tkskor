@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Info } from "lucide-react";
+import { ArrowRight, Info, Home as HomeIcon } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import InfoCard from "../components/InfoCard";
 
@@ -12,7 +12,8 @@ export default function Home() {
 
             <div className="mx-auto flex max-w-5xl flex-col items-center">
                 <section className="flex max-w-2xl flex-col items-center text-center">
-                    <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/20 dark:text-blue-400 dark:ring-blue-400/20">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/10 dark:text-blue-400">
+                        <HomeIcon size={14} />
                         {t.home.label}
                     </span>
 
@@ -71,7 +72,7 @@ export default function Home() {
                 </section>
 
                 <section className="mt-16 w-full">
-                    <h2 className="text-center text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-2xl hidden">
+                    <h2 className="text-center text-xl pb-5 font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-4xl hidden">
                         {t.home.howItWorks}
                     </h2>
 

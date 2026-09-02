@@ -18,8 +18,8 @@ const id = {
                 description: "Isi skor yang kamu dapatkan untuk setiap mata pelajaran wajib serta nilai rapot.",
             },
             choose: {
-                title: "Pilih Mode Perhitungan",
-                description: "Pilih opsi TKA biasa atau aktifkan mode TKAD jika diperlukan.",
+                title: "Pilih Provinsi",
+                description: "Pilih provinsi kamu untuk mendapatkan skor yang paling akurat.",
             },
             calculate: {
                 title: "Lihat Hasil Akhir",

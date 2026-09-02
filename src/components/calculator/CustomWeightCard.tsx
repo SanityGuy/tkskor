@@ -29,10 +29,10 @@ export default function CustomWeightCard({ weights, onChange }: CustomWeightCard
   };
 
   return (
-    <section className="rounded-2xl border border-indigo-200/80 bg-gradient-to-br from-indigo-50/50 via-white to-purple-50/30 p-5 shadow-sm transition-all duration-300 dark:border-indigo-900/50 dark:from-slate-900 dark:via-slate-900 dark:to-indigo-950/30">
+    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-all duration-300 dark:border-slate-800 dark:bg-slate-900">
       <div className="flex items-start justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-indigo-500/10 text-indigo-600 dark:bg-indigo-500/20 dark:text-indigo-400">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600 dark:bg-blue-500/10 dark:text-blue-400">
             <Sliders size={20} strokeWidth={2.2} />
           </div>
           <div>
@@ -57,19 +57,19 @@ export default function CustomWeightCard({ weights, onChange }: CustomWeightCard
         </div>
       </div>
 
-      <div className="mt-4 min-h-[44px] w-full flex items-center justify-between rounded-xl bg-slate-50 px-3.5 py-2.5 ring-1 ring-slate-200/60 border border-slate-300 dark:bg-slate-900 dark:ring-slate-700/50 dark:border-slate-700">
+      <div className="mt-4 min-h-[44px] w-full flex items-center justify-between rounded-xl bg-slate-50 px-3.5 py-2.5 ring-1 ring-slate-200/60 border border-slate-300 dark:bg-slate-900 dark:ring-slate-700/50 dark:border-slate-700 sm:px-5"> 
         <span className="text-base font-medium sm:text-sm text-slate-700 dark:text-slate-300">
             {t.weights.incltkad}
         </span>
         <button
           type="button"
           onClick={() => handleWeightChange("enableTkad", !weights.enableTkad)}
-          className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
-            weights.enableTkad ? "bg-indigo-600" : "bg-slate-300 dark:bg-slate-700"
+          className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none bg-state-300 ${
+            weights.enableTkad ? "bg-blue-600" : "bg-slate-200 dark:bg-slate-800"
           }`}
         >
           <span
-            className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out ${
+            className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow-sm ring-0 transition duration-200 ease-in-out ${
               weights.enableTkad ? "translate-x-5" : "translate-x-0"
             }`}
           />

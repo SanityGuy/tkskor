@@ -18,8 +18,8 @@ const en = {
                 description: "Enter the scores you received for each required subject and report card average score.",
             },
             choose: {
-                title: "Choose your calculation",
-                description: "Select TKA or enable TKAD when applicable.",
+                title: "Select your province",
+                description: "Select your province to get the most accurate score.",
             },
             calculate: {
                 title: "Get your result",

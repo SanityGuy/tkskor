@@ -1,4 +1,4 @@
-import { Calculator as CalculatorIcon, Sparkles, ArrowRight } from "lucide-react";
+import { Calculator as CalculatorIcon, ArrowRight } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { useCalculator } from "../hooks/useCalculator";
 
@@ -21,7 +21,7 @@ export default function Calculator() {
         <div className="mx-auto max-w-3xl">
             <section className="text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-wide text-blue-600 ring-1 ring-inset ring-blue-600/10 dark:bg-blue-500/10 dark:text-blue-400">
-                <Sparkles size={13} />
+                <CalculatorIcon size={13} />
                 {t.calculator.label}
             </span>
             <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-800 dark:text-slate-100 sm:mt-4 sm:text-5xl md:text-6xl">
