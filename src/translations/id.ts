@@ -28,6 +28,22 @@ const id = {
         },
     },
 
+    result: {
+            title: "Nilai perkiraan",
+            orTotal: "Atau Total",
+            tka: "TKA",
+            tkad: "TKAD",
+            tkaTkad: "TKA + TKAD",
+            report: "Rapor",
+            withoutTkad: "Tanpa TKAD",
+            calculation: "Perhitungan",
+            weightedCalculation: "Perhitungan berbobot",
+            tkaAverage: "Rata-rata TKA",
+            tkadAverage: "Rata-rata TKAD",
+            finalScore: "Nilai akhir",
+            total: "Total",
+    },
+
     calculator: {
         label: "KALKULATOR NILAI",
         title: "Hitung Nilai Kamu.",
@@ -63,9 +79,6 @@ const id = {
 
         calculate:
             "Hitung nilai",
-
-        result:
-            "Nilai perkiraan",
 
         subjects: {
             indonesian:
@@ -125,7 +138,7 @@ const id = {
         dki: "DKI Jakarta (70% Rapor : 30% TKA)",
         jabar: "Jawa Barat (50% Rapor : 50% TKA)",
         jateng: "Jawa Tengah (50% Rapor : 50% TKA)",
-        yogyakarta: "DI Yogyakarta (40% Rapor : 60% TKA)",
+        yogyakarta: "DI Yogyakarta (40% Rapor : 60% TKA + TKAD)",
         jtt: "Jawa Timur (60% Rapor : 40% TKA)",
         btn: "Banten (70% Rapor : 30% TKA)",
     },

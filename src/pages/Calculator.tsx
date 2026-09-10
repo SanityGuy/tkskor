@@ -91,7 +91,7 @@ export default function Calculator() {
                 <button
                 type="button"
                 onClick={calc.handleCalculate}
-                className="relative flex min-h-[52px] w-full items-center justify-center gap-2.5 rounded-2xl bg-blue-600 px-6 py-3.5 font-bold text-white shadow-lg transition-all duration-200 dark:bg-blue-400 active:scale-[0.98]"
+                className="relative flex min-h-[52px] w-full items-center justify-center gap-2.5 rounded-2xl bg-blue-500 px-6 py-3.5 font-bold text-white shadow-lg transition-all duration-200 dark:bg-blue-600 active:scale-[0.98]"
                 >
                 <CalculatorIcon className="h-5 w-5" />
                 <span className="text-sm tracking-wide sm:text-base">{t.calculator.calculate}</span>
@@ -100,7 +100,7 @@ export default function Calculator() {
             </div>
 
             {calc.result !== null && (
-                <ResultCard result={calc.result} title={t.calculator.result} />
+                <ResultCard result={calc.result} level={calc.level} />
             )}
             </section>
         </div>

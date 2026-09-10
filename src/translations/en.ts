@@ -28,6 +28,22 @@ const en = {
         },
     },
 
+    result: {
+        title: "Estimated score",
+        orTotal: "Or Total",
+        tka: "TKA",
+        tkad: "TKAD",
+        tkaTkad: "TKA + TKAD",
+        report: "Report Card",
+        withoutTkad: "Without TKAD",
+        calculation: "Calculation",
+        weightedCalculation: "Weighted calculation",
+        tkaAverage: "TKA average",
+        tkadAverage: "TKAD average",
+        finalScore: "Final score",
+        total: "Total",
+    },
+
     calculator: {
         label: "SCORE CALCULATOR",
         title: "Calculate Your Score.",
@@ -63,9 +79,6 @@ const en = {
 
         calculate:
             "Calculate score",
-
-        result:
-            "Estimated score",
 
         subjects: {
             indonesian:
@@ -125,7 +138,7 @@ const en = {
         dki: "DKI Jakarta (70% Report : 30% TKA)",
         jabar: "West Java (50% Report : 50% TKA)",
         jateng: "Central Java (50% Report : 50% TKA)",
-        yogyakarta: "Yogyakarta (40% Report : 60% TKA)",
+        yogyakarta: "Yogyakarta (40% Report : 60% TKA + TKAD)",
         jtt: "East Java (60% Report : 40% TKA)",
         btn: "Banten (70% Report : 30% TKA)",
     },
@@ -152,6 +165,8 @@ const en = {
         total: "{totalWeight}%",
         valid: "Total bobot ideally should be 100%. Currently: {totalWeight}%",
     },
+
+    
 };
 
 export default en;
