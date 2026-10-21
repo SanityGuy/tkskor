@@ -93,6 +93,7 @@ const en = {
             science:
                 "Science",
         },
+
         advancedReportTitle: "Advanced Report Card Input",
         advancedReportDescription: "Enter grades across 5 semesters for each subject. Use keyboard shortcuts for fast navigation.",
         semesters: {
@@ -157,7 +158,6 @@ const en = {
         jtt: "East Java (60% Report : 40% TKA)",
         btn: "Banten (70% Report : 30% TKA)",
     },
-        
 
     warning: {
         title: "Important Notice",
@@ -180,8 +180,6 @@ const en = {
         total: "{totalWeight}%",
         valid: "Total bobot ideally should be 100%. Currently: {totalWeight}%",
     },
-
-    
 };
 
 export default en;

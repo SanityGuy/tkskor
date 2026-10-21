@@ -93,6 +93,22 @@ const id = {
             science:
                 "IPA/Sains",
         },
+
+        advancedReportTitle: "Input Rapor Lanjutan",
+        advancedReportDescription: "Masukkan nilai untuk 5 semester di setiap mata pelajaran. Gunakan tombol navigasi untuk berpindah cepat.",
+        semesters: {
+            sem1: "Sem 1",
+            sem2: "Sem 2",
+            sem3: "Sem 3",
+            sem4: "Sem 4",
+            sem5: "Sem 5",
+        },
+        tableHeaders: {
+            subject: "Mata Pelajaran",
+            average: "Rata-rata",
+        },
+        shortcutsTooltip: "Navigasi: Tombol panah atau Tab/Shift+Tab untuk berpindah sel. Enter untuk berpindah ke baris berikutnya.",
+        overallAverage: "Rata-rata Keseluruhan Rapor",
     },
 
     about: {
