@@ -93,6 +93,21 @@ const en = {
             science:
                 "Science",
         },
+        advancedReportTitle: "Advanced Report Card Input",
+        advancedReportDescription: "Enter grades across 5 semesters for each subject. Use keyboard shortcuts for fast navigation.",
+        semesters: {
+            sem1: "Sem 1",
+            sem2: "Sem 2",
+            sem3: "Sem 3",
+            sem4: "Sem 4",
+            sem5: "Sem 5",
+        },
+        tableHeaders: {
+            subject: "Subject",
+            average: "Average",
+        },
+        shortcutsTooltip: "Navigation: Arrow keys or Tab/Shift+Tab to navigate cells. Enter to jump to the next row.",
+        overallAverage: "Overall Report Card Average",
     },
 
     about: {
